@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="m_AboutApp" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="m_Account" xml:space="preserve">
+    <value>Учётная запись</value>
+  </data>
+  <data name="m_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="m_Add_Product" xml:space="preserve">
+    <value>Добавить товар</value>
+  </data>
+  <data name="m_Already_exists" xml:space="preserve">
+    <value>Уже существует</value>
+  </data>
+  <data name="m_Authorization" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="m_By_Category" xml:space="preserve">
+    <value>По категории:</value>
+  </data>
+  <data name="m_By_Date" xml:space="preserve">
+    <value>По дате</value>
+  </data>
+  <data name="m_By_Name" xml:space="preserve">
+    <value>По названию</value>
+  </data>
+  <data name="m_By_Name1" xml:space="preserve">
+    <value>По названию:</value>
+  </data>
+  <data name="m_By_Number" xml:space="preserve">
+    <value>По количеству:</value>
+  </data>
+  <data name="m_By_Price" xml:space="preserve">
+    <value>По цене</value>
+  </data>
+  <data name="m_By_Price_From" xml:space="preserve">
+    <value>От:</value>
+  </data>
+  <data name="m_By_Price_To" xml:space="preserve">
+    <value>До:</value>
+  </data>
+  <data name="m_By_Rating" xml:space="preserve">
+    <value>По рейтингу</value>
+  </data>
+  <data name="m_By_Size" xml:space="preserve">
+    <value>По размеру:</value>
+  </data>
+  <data name="m_By_User" xml:space="preserve">
+    <value>По пользователю:</value>
+  </data>
+  <data name="m_Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="m_Category_missing" xml:space="preserve">
+    <value>Отсутствует категория</value>
+  </data>
+  <data name="m_ChangeAccount" xml:space="preserve">
+    <value>Сменить учётную запись</value>
+  </data>
+  <data name="m_Change_Del_Product" xml:space="preserve">
+    <value>Изменить/Удалить продукт</value>
+  </data>
+  <data name="m_Clear" xml:space="preserve">
+    <value>Очистить поля</value>
+  </data>
+  <data name="m_ComeIn" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="m_DarkTheme" xml:space="preserve">
+    <value>Тёмная</value>
+  </data>
+  <data name="m_Date_Of_Sale" xml:space="preserve">
+    <value>Дата продажи</value>
+  </data>
+  <data name="m_Delete_Object" xml:space="preserve">
+    <value>Удалить выбранное</value>
+  </data>
+  <data name="m_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="m_Enter_Log" xml:space="preserve">
+    <value>Введите логин</value>
+  </data>
+  <data name="m_Enter_Pas" xml:space="preserve">
+    <value>Введите пароль</value>
+  </data>
+  <data name="m_Exit" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="m_Help_With_Change" xml:space="preserve">
+    <value>Введите имя продукта, который хотите изменить:</value>
+  </data>
+  <data name="m_Help_With_Change_Fields" xml:space="preserve">
+    <value>и его новые свойства:</value>
+  </data>
+  <data name="m_Help_With_Delete" xml:space="preserve">
+    <value>Введите имя продукта, который хотите удалить:</value>
+  </data>
+  <data name="m_Invalid_date_format" xml:space="preserve">
+    <value>Неверный формат даты. Правильный формат: 2021-05-20</value>
+  </data>
+  <data name="m_Invalid_date_of_sale" xml:space="preserve">
+    <value>Неверно введённая дата продажи</value>
+  </data>
+  <data name="m_Invalid_price_format" xml:space="preserve">
+    <value>Неверный формат цены. Правильный формат: 12356,67</value>
+  </data>
+  <data name="m_Invalid_quantity_format" xml:space="preserve">
+    <value>Неверный формат количества. Правильный формат: 777</value>
+  </data>
+  <data name="m_Invalid_rating_format" xml:space="preserve">
+    <value>Неверный формат рейтинга. Правильный формат: 6,7</value>
+  </data>
+  <data name="m_Invalid_size_format" xml:space="preserve">
+    <value>Неверный формат размера. Правильный формат: 200х300</value>
+  </data>
+  <data name="m_Invalid_time_format" xml:space="preserve">
+    <value>Неверный формат времени. Правильный формат: 15:40</value>
+  </data>
+  <data name="m_Invalid_time_of_sale" xml:space="preserve">
+    <value>Неверно введённое время продажи</value>
+  </data>
+  <data name="m_Iron" xml:space="preserve">
+    <value>Утюг</value>
+  </data>
+  <data name="m_Lang" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="m_Lang_en" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="m_Lang_ru" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="m_LightTheme" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="m_Load_Picture" xml:space="preserve">
+    <value>Загрузить картинку</value>
+  </data>
+  <data name="m_Login_missing" xml:space="preserve">
+    <value>Отсутствует логин</value>
+  </data>
+  <data name="m_MainTheme" xml:space="preserve">
+    <value>Основная</value>
+  </data>
+  <data name="m_Message" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="m_Missing_number" xml:space="preserve">
+    <value>Отсутствует количество</value>
+  </data>
+  <data name="m_Missing_price" xml:space="preserve">
+    <value>Отсутствует цена</value>
+  </data>
+  <data name="m_Missing_product_name" xml:space="preserve">
+    <value>Отсутствует название продукта</value>
+  </data>
+  <data name="m_Missing_rating" xml:space="preserve">
+    <value>Отсутствует рейтинг</value>
+  </data>
+  <data name="m_Missing_size" xml:space="preserve">
+    <value>Отсутствует размер</value>
+  </data>
+  <data name="m_NOP" xml:space="preserve">
+    <value>Название товара</value>
+  </data>
+  <data name="m_Notebook" xml:space="preserve">
+    <value>Ноутбук</value>
+  </data>
+  <data name="m_Number" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="m_Output" xml:space="preserve">
+    <value>Вывести</value>
+  </data>
+  <data name="m_Password_entered_incorrectly" xml:space="preserve">
+    <value>Неверно введен пароль</value>
+  </data>
+  <data name="m_Password_mismatch" xml:space="preserve">
+    <value>Пароли не совпадают</value>
+  </data>
+  <data name="m_Password_missing" xml:space="preserve">
+    <value>Отсутствует пароль</value>
+  </data>
+  <data name="m_Phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="m_Price" xml:space="preserve">
+    <value>Цена 1 шт.</value>
+  </data>
+  <data name="m_Product_added" xml:space="preserve">
+    <value>Товар добавлен</value>
+  </data>
+  <data name="m_Product_changed" xml:space="preserve">
+    <value>Товар изменён</value>
+  </data>
+  <data name="m_Product_list_is_empty" xml:space="preserve">
+    <value>Список товаров пуст</value>
+  </data>
+  <data name="m_Product_removed" xml:space="preserve">
+    <value>Товар удалён</value>
+  </data>
+  <data name="m_Rating" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="m_Registration" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="m_Repeat_Pas" xml:space="preserve">
+    <value>Повторите пароль</value>
+  </data>
+  <data name="m_RestartApp" xml:space="preserve">
+    <value>Для смены языка, перезапустите приложение!</value>
+  </data>
+  <data name="m_Sale_date_missing" xml:space="preserve">
+    <value>Отсутствует дата продажи</value>
+  </data>
+  <data name="m_Sale_time_is_missing" xml:space="preserve">
+    <value>Отсутствует время продажи</value>
+  </data>
+  <data name="m_Save_Changes" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="m_Save_Picture" xml:space="preserve">
+    <value>Сохранить картинку</value>
+  </data>
+  <data name="m_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="m_Searching" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="m_Search_Sold" xml:space="preserve">
+    <value>Поиск проданных продуктов</value>
+  </data>
+  <data name="m_Sign_Up" xml:space="preserve">
+    <value>Зарегистрироваться</value>
+  </data>
+  <data name="m_Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="m_Sold_Products" xml:space="preserve">
+    <value>Проданные продукты</value>
+  </data>
+  <data name="m_Sort" xml:space="preserve">
+    <value>Сортировка</value>
+  </data>
+  <data name="m_Sorting" xml:space="preserve">
+    <value>Отсортировать</value>
+  </data>
+  <data name="m_Themes" xml:space="preserve">
+    <value>Темы</value>
+  </data>
+  <data name="m_The_selected_file_cannot_be_opened" xml:space="preserve">
+    <value>Невозможно открыть выбранный файл</value>
+  </data>
+  <data name="m_The_selected_product_does_not_exist" xml:space="preserve">
+    <value>Выбранного товара не существует</value>
+  </data>
+  <data name="m_The_selected_quantity_of_products_exceeds_the_allowable" xml:space="preserve">
+    <value>Выбранное количество товара превышает допустимое</value>
+  </data>
+  <data name="m_The_selected_user_does_not_exist" xml:space="preserve">
+    <value>Выбранного пользователя не существует</value>
+  </data>
+  <data name="m_This_product_does_not_exist" xml:space="preserve">
+    <value>Такого товара не существует</value>
+  </data>
+  <data name="m_This_user_does_not_exist" xml:space="preserve">
+    <value>Такого пользователя не существует</value>
+  </data>
+  <data name="m_Time_Of_Sale" xml:space="preserve">
+    <value>Время продажи</value>
+  </data>
+  <data name="m_Users_Login" xml:space="preserve">
+    <value>Логин пользователя</value>
+  </data>
+  <data name="m_User_added" xml:space="preserve">
+    <value>Пользователь добавлен</value>
+  </data>
+  <data name="m_User_login_missing" xml:space="preserve">
+    <value>Отсутствует логин пользователя</value>
+  </data>
+  <data name="m_Values_entered_incorrectly" xml:space="preserve">
+    <value>Невверно введены значения!</value>
+  </data>
+</root>

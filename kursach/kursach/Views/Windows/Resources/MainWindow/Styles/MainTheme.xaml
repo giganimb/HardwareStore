@@ -1,0 +1,131 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:kursach">
+
+    <Style x:Key="ThemeGrid" TargetType="Grid">
+        <Setter Property="Background" Value="#FBCEB1"></Setter>
+    </Style>
+
+    <Style x:Key="ThemeMenu" TargetType="Menu">
+        <Setter Property="Background" Value="#436B79"></Setter>
+    </Style>
+
+    <Style x:Key="ThemeMenuItem" TargetType="MenuItem">
+        <Setter Property="Background" Value="#436B79"></Setter>
+        <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
+        <Setter Property="FontFamily" Value="PT Mono"></Setter>
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"></Condition>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ThemeTabControl" TargetType="TabControl">
+        <Setter Property="Background" Value="#436B79"></Setter>
+
+    </Style>
+
+    <Style x:Key="ThemeTabItems" TargetType="TabItem">
+        <Setter Property="Background" Value="#436B79"></Setter>
+        <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
+        <Setter Property="FontFamily" Value="PT Mono"></Setter>
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsSelected" Value="True"></Condition>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"></Condition>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ThemeTextBlock" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="Black"></Setter>
+        <Setter Property="FontFamily" Value="PT Mono"></Setter>
+    </Style>
+
+    <Style x:Key="ThemeTextBox" TargetType="TextBox">
+        <Setter Property="Background" Value="#436B79"></Setter>
+        <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
+        <Setter Property="BorderBrush" Value="#FBCEB1"></Setter>
+        <Setter Property="FontFamily" Value="PT Mono"></Setter>
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"></Condition>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Background" Value="#26728C"></Setter>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ThemeStackPanel" TargetType="StackPanel">
+        <Setter Property="Background" Value="#26728C"></Setter>
+    </Style>
+
+    <Style x:Key="ThemeButton" TargetType="Button">
+        <Setter Property="Background" Value="#436B79"></Setter>
+        <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
+        <Setter Property="FontFamily" Value="PT Mono"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="Border" BorderThickness="0" Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"></Condition>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Background" Value="#26728C"></Setter>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ThemeDataGrid" TargetType="DataGrid">
+        <Setter Property="RowBackground" Value="WhiteSmoke"></Setter>
+        <Setter Property="AlternatingRowBackground" Value="#26728C"></Setter>
+        <Setter Property="HorizontalGridLinesBrush" Value="#436B79"></Setter>
+        <Setter Property="FontFamily" Value="PT Mono"></Setter>
+    </Style>
+
+    <Style x:Key="ThemeCheckBox" TargetType="CheckBox">
+        <Setter Property="FontFamily" Value="PT Mono"></Setter>
+        <Setter Property="Foreground" Value="Black"></Setter>
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsChecked" Value="True"></Condition>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Foreground" Value="#436B79"></Setter>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

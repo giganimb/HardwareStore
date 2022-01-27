@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="kursach.Infostructure.Commands.RelayCommand">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infostructure\Commands\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Infostructure.Commands.Base.Command">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infostructure\Commands\Base\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Models.Control.UnitOfWork.UnitOfWork">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAKAAASAQAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAQ=</HashCode>
+      <FileName>Models\Control\UnitOfWork\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Models.Control.ProductControl">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAQAAAAAAAAAQAAAAEAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Control\ProductControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Models.Control.SoldProductControl">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAABAAAAAQAAAAAAAAAQAAAAEAAEIAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Control\SoldProductControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Models.Control.UserControl">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAABAAQAAEAAAAAAAAACAEAAEAAAgAAAIAAAAA=</HashCode>
+      <FileName>Models\Control\UserControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Models.Data.ApplicationContext">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Data\ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Models.ProductBuilder.ProductBuilder">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIBAABBABKAAAAAAAAAEAAAEAAAAAAABA=</HashCode>
+      <FileName>Models\ProductBuilder\ProductBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Models.ProductBuilder.ProductWithDescription">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductBuilder\ProductWithDescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Models.ProductBuilder.ProductWithoutDescription">
+    <Position X="11.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductBuilder\ProductWithoutDescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Models.Product">
+    <Position X="13.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAQAggAAAAEAAAAAAAAAAAAEAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Models.SoldProduct">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAUAQAAAAAAAEAAAAAAAAAAEAAAAAAQABAACAA=</HashCode>
+      <FileName>Models\SoldProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Models.User">
+    <Position X="17.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAACAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.ViewModels.Access.Admission">
+    <Position X="15.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Access\Admission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.ViewModels.Base.ViewModel">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Base\ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.ViewModels.AuthorizationViewModel">
+    <Position X="20" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAICAAAAAAAAAAAAAEAABEAAQAAAAAJgAAEAA=</HashCode>
+      <FileName>ViewModels\AuthorizationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.ViewModels.MainWindowViewModel">
+    <Position X="22" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>rh+zIrOLZpBRznBEbqhCjd6qxxFOPRxo8S4PCEr6joE=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.ViewModels.RegistrationViewModel">
+    <Position X="24" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAEAAAAACAAAIAAAAgAAACAEABAAAQAAIBAIAAAEAA=</HashCode>
+      <FileName>ViewModels\RegistrationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Views.Windows.Authorization">
+    <Position X="26.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQgAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Views\Windows\Authorization.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Views.Windows.MainWindow" Collapsed="true">
+    <Position X="28.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Views\Windows\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.Views.Windows.Registration" Collapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAEACAAAAAAAAA=</HashCode>
+      <FileName>Views\Windows\Registration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="kursach.Models.ProductBuilder.IProductBuilder">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIBAABAABKAAAAAAAAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\ProductBuilder\IProductBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
