@@ -4,7 +4,7 @@ Course project on C# (.NET Core)
 # Patterns
 #### Database patterns:
 - Unit of work
-- Abstract Factory
+- Repository
 #### Architecture patterns:
 - MVVM
 #### Creational  patterns:
